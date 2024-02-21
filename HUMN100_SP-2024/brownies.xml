@@ -22,7 +22,7 @@
          <div>
             <head>INGREDIENTS</head>
 
-         <list><item cert="high" n="4" xml:space="default"><measure cert="high" unit="m" xml:space="default">4 oz (1 box)</measure> <objectName>unsweetened chocolate</objectName></item>         
+         <list><item cert="high" n="4" xml:space="default"><measure cert="high" unit="m" xml:space="default">4 oz (1 box)</measure> <objectName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" type="Chocolate">unsweetened chocolate</objectName></item>         
          <item cert="high" xml:space="default" n=".66">⅔ cup <objectName>butter</objectName></item>
          <item cert="high" n="1.33" xml:space="default">1 ⅓ cup <objectName>all purpose flour</objectName> </item>        
          <item cert="high" n="1" xml:space="default">1 teaspoon baking powder</item>         
