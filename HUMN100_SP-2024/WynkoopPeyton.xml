@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>HUMN100 Class Personography</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CSÉC unless
+					otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+		</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>Pace Wynkoop</head>
+				<listPerson>
+					<person>
+						<persName>Wynkoop, Peyton</persName>
+						<birth>
+							<placeName>Abu Dhabi, UAE</placeName>
+						</birth>
+					</person>
+				</listPerson>
+				<listRelation/>
+				<p>Replace with your text.</p>
+			</div>
+			<div>
+				<head>some person</head>
+				<listPerson/>
+				<listRelation/>
+			</div>
+		</body>
+	</text>
+</TEI>
