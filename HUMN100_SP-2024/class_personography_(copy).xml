@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader><fileDesc><titleStmt><title>Title</title></titleStmt><publicationStmt><p>Publication Information</p></publicationStmt><sourceDesc><p>Information about the source</p></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+      
+
+   <text>
+      <body>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10014" xml:space="default">Peyton Wynkoop 21/08/05 Abu Dhabi, UAE</persName><birth> </birth><occupation>Undeclared Major</occupation> <affiliation>DSAC</affiliation></person></listPerson><p>FUN FACT</p>
+         </div>
+         <div><listPerson><person><birth><date> Nikita Bityutskiy 10/09/2003</date>
+                     <placeName>Tashkent, Uzbekistan</placeName>
+                  </birth>
+                  <occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="AcademicMajor">Computer Science &amp; Engineering</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="Sports" xml:space="default">Mens Swim and Dive</affiliation></person></listPerson><p>I wanted to play baseball but I screwed up my shoulder</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10002" xml:space="default">Zach Blumenfeld</persName>
+                  <birth>
+                     <date>02/02/05</date>
+                     <placeName>Doylestown, PA</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Computer Science Engineering</occupation>
+                  <affiliation>GROUP I'M A PART OF</affiliation>
+               </person>
+            </listPerson>
+            <p>I am left handed</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10003" xml:space="default">Miguel Camacho</persName>
+                  <birth>
+                     <date>12/13/02</date> Bogata, Columbia </birth><occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="AcademicMajor">Creative Writng and Comparative and Digital Humanities</occupation> <affiliation cert="high" evidence="internal" instant="unknown" xml:space="default" type="club">Rock Climbing Art Merit Scholar Film Club</affiliation></person></listPerson><p>I used to be a competitive fencer</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10004" xml:space="default">Nathan Casarsa</persName>
+                  <birth>
+                     <date>DATE</date>
+                     <placeName>PLACE</placeName>
+                  </birth>
+                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <affiliation>GROUP I'M A PART OF</affiliation>
+               </person>
+            </listPerson>
+            <p>FUN FACT</p>
+         </div>
+         <div><listPerson><person><birth><date>Junbo Feng 07/12/2005</date>
+                     <placeName>Guangdon, China</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Computer Science Engineering</occupation>
+                  <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Cycling Esports Frisbee</affiliation></person></listPerson><p>I am a music producer</p>
+         </div>
+         <div><listPerson><person><birth><date>Jackson Green 03/09/05</date>
+                     <placeName>Washington D.C.</placeName>
+                  </birth>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Undecided Major</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
+               </person>
+            </listPerson>
+            <p>Two Dogs and 1 Cat</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10007" xml:space="default">Abby Hausner</persName>
+                  <birth>
+                     <date>10/08/2004</date>
+                     <placeName>Ridgewood, NJ</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Economics and Political Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="Sport" xml:space="default">Club Basketball</affiliation></person></listPerson><p>I am going to Scotland in May</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10008" xml:space="default">Dylan Lange</persName>
+                  <birth>
+                     <date>06/01/04</date>
+                     <placeName>Indio, CA</placeName>
+                  </birth>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Computer Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="GreekOrganization" xml:space="default">Volleyball SAE</affiliation></person></listPerson><p>I have 15 cats</p>
+         </div>
+         <div>
+            <listPerson>
+               <person cert="high" evidence="internal" instant="unknown" xml:id="humn10009" xml:space="default">
+                  <persName>Joshua Lee</persName>
+                  <birth>
+                     <date>2/20/04</date>
+                     <placeName>Engelwood, NJ</placeName>
+                  </birth>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Computer Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="club" xml:space="default">Korean Cultural Club</affiliation></person></listPerson><p>FUN FACT</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10010" xml:space="default">Leo McMenimen</persName>
+                  <birth>
+                     <date>11/25/03</date>
+                     <placeName>Sayerville, NJ</placeName>
+                  </birth>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Computer Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="Club" xml:space="default">Active Minds</affiliation></person></listPerson><p>I have a metal rod screwed into my arm</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10011" xml:space="default">Alexander Peters</persName>
+                  <birth>
+                     <date>DATE</date>
+                     <placeName>PLACE</placeName>
+                  </birth>
+                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <affiliation>GROUP I'M A PART OF</affiliation>
+               </person>
+            </listPerson>
+            <p>FUN FACT</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10012" xml:space="default">Farhaj Shahid</persName> <birth><date>DATE</date>
+                     <placeName>PLACE</placeName>
+                  </birth>
+                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <affiliation>GROUP I'M A PART OF</affiliation>
+               </person>
+            </listPerson>
+            <p>FUN FACT</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10013" xml:space="default">Erin Wiehn</persName>
+                  <birth>
+                     <date>2/26/05</date>
+                     <placeName>Newtontown, MA</placeName>
+                  </birth>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Economics</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="Club" xml:space="default">ACS</affiliation></person></listPerson><p>FI am left handed</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName>NAME14</persName>
+                  <birth>
+                     <date>DATE</date>
+                     <placeName>PLACE</placeName>
+                  </birth>
+                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <affiliation>GROUP I'M A PART OF</affiliation>
+               </person>
+            </listPerson>
+            <p>FUN FACT</p>
+         </div>
+      </body>
+   </text>
+</TEI>
