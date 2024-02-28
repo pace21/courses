@@ -7,9 +7,9 @@
          <div>
             <listPerson>
                <person>
-                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10014" xml:space="default">Peyton Wynkoop 21/08/05 Abu Dhabi, UAE</persName><birth> </birth><occupation>Undeclared Major</occupation> <affiliation>DSAC</affiliation></person></listPerson><p>FUN FACT</p>
+                  <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" xml:id="humn10014">Peyton Wynkoop 21/08/05 Abu Dhabi, UAE</persName><birth> </birth><occupation>Undeclared Major</occupation> <affiliation>DSAC</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
-         <div><listPerson><person><birth><date cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:space="default" xml:id="humn10001"> Nikita Bityutskiy 10/09/2003</date>
+         <div><listPerson><person><birth><date cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:space="default" xml:id="humn10001"> <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10001" xml:space="default">Nikita Bityutskiy</persName> 10/09/2003</date>
                      <placeName>Tashkent, Uzbekistan</placeName>
                   </birth>
                   <occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="AcademicMajor">Computer Science &amp; Engineering</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="Sports" xml:space="default">Mens Swim and Dive</affiliation></person></listPerson><p>I wanted to play baseball but I screwed up my shoulder</p>
@@ -47,11 +47,11 @@
             </listPerson>
             <p>FUN FACT</p>
          </div>
-         <div><listPerson><person><birth><date cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:id="humn10005" xml:space="default">Junbo Feng 07/12/2005</date>
+         <div><listPerson><person><birth><date cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:id="humn10005" xml:space="default"><persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10005" xml:space="default">Junbo Feng</persName> 07/12/2005</date>
                      <placeName>Guangdon, China</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Computer Science Engineering</occupation>
                   <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Cycling Esports Frisbee</affiliation></person></listPerson><p>I am a music producer</p>
          </div>
-         <div><listPerson><person><birth><date>Jackson Green 03/09/05</date>
+         <div><listPerson><person><birth><date><persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10006" xml:space="default">Jackson Green</persName> 03/09/05</date>
                      <placeName>Washington D.C.</placeName>
                   </birth>
                   <occupation cert="high" evidence="internal" instant="unknown" type="AcademicMajor" xml:space="default">Undecided Major</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
