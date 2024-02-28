@@ -31,7 +31,7 @@
                <person>
                   <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:id="humn10003" xml:space="default">Miguel Camacho</persName>
                   <birth>
-                     <date>12/13/02</date> Bogata, Columbia </birth><occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="AcademicMajor">Creative Writng and Comparative and Digital Humanities</occupation> <affiliation cert="high" evidence="internal" instant="unknown" xml:space="default" type="club">Rock Climbing Art Merit Scholar Film Club</affiliation></person></listPerson><p>I used to be a competitive fencer</p>
+                     <date>12/13/02</date> Bogata, Columbia </birth><occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="AcademicMajor">Creative Writng and Comparative and Digital Humanities</occupation> <affiliation cert="high" evidence="internal" instant="unknown" xml:space="default" type="club">Rock Climbing <affiliation cert="high" evidence="internal" instant="unknown" type="AcademicScholarship" xml:space="default">Art Merit Scholar</affiliation> <affiliation cert="high" evidence="internal" instant="unknown" type="club" xml:space="default">Film Club</affiliation></affiliation></person></listPerson><p>I used to be a competitive fencer</p>
          </div>
          <div>
             <listPerson>
