@@ -3151,85 +3151,6 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240304093426522",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-04T14:34:26.522Z",
-	"dcterms:modified": "2024-03-04T14:34:26.522Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/pace21",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "pace wynkoop"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240304093426522#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240304093426522#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[7]/l[8]/span/span/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteScholarly",
-		"dc:format": "text/plain",
-		"rdf:value": "gasnioghiaop"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
-}]]>
-        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3247,7 +3168,7 @@
                <l><title cert="high" level="a" xml:space="default" type="MiddleweightChampionOfTheWorld">The champion of the world</title></l>
             </lg>
             <lg>
-               <l>Three bodies lyin’ there does <persName cert="high" type="real">Patty</persName> see</l>
+               <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="murder" xml:space="default">Three bodies lyin’ there</eventName> does <persName cert="high" type="real">Patty</persName> see</l>
                <l>And another man named <persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Bello</persName>, movin’ around mysteriously</l>
                <l>“I didn’t do it,” he says, and he throws up his hands</l>
                <l>“I was only robbin’ the register, I hope you understand</l>
@@ -3309,7 +3230,7 @@
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">You’ll be doin’ society a favor</span></span></l>
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">That sonofabitch is brave and gettin’ braver</span></span></l>
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">We want to put his ass in stir</span></span></l>
-               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">We want to pin this triple murder on him<note type="scholarNote">gasnioghiaop</note></span></span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">We want to pin this triple murder on him</span></span></l>
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">He ain’t no <persName key="James J. Corbett" ref="http://www.wikidata.org/entity/Q455494" cert="high" type="real">Gentleman Jim</persName>”</span></span></l>
             </lg>
             <lg>
