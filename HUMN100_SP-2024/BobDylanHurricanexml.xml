@@ -3165,7 +3165,7 @@
                <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Screaming" xml:space="default">Cries out</eventName>, “My God, they killed them all!”</l>
                <l>Here comes the story of the <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" role="dfd">Hurricane</persName></l>
                <l>The man the <orgName key="law enforcement" ref="http://www.wikidata.org/entity/Q44554" cert="high">authorities</orgName> came to blame</l>
-               <l>For somethin’ that he never done</l>
+               <l><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">For somethin’ that he never done</span></l>
                <l>Put in a <placeName key="prison cell" ref="http://www.wikidata.org/entity/Q686534" cert="high">prison cell<precision match="@ref" precision="medium"/></placeName>, but one time he could-a been</l>
                <l><title cert="high" level="a" xml:space="default" type="MiddleweightChampionOfTheWorld">The champion of the world</title></l>
             </lg>
@@ -3203,7 +3203,7 @@
                <l> They told him that he could identify the guilty men</l>
             </lg>
             <lg>
-               <l><time cert="high" evidence="internal" instant="unknown" precision="high" type="4:00 AM" unit="cm" xml:space="default">Four in the mornin’</time> and they haul <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName> in</l>
+               <l><time cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:space="default" type="4:00AM">Four in the mornin’</time> and they haul <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName> in</l>
                <l> Take him to the <placeName key="hospital" ref="http://www.wikidata.org/entity/Q16917">hospital</placeName> and they bring him upstairs</l>
                <l> The wounded man looks up through his one dyin’ eye</l>
                <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">Says, “Wha’d you bring him in here for? He ain’t the guy!”</span></l>
