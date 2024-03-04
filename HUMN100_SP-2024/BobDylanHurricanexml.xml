@@ -375,7 +375,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?place_annotation_20240303185033510#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[3]/l[7]/span/placeName"
+			"rdf:value": "TEI/text/body/div[2]/lg[3]/l[7]/span/span/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -3105,11 +3105,11 @@
                <l><persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin Carter</persName> and a couple of friends are drivin’ around</l>
                <l>Number one contender for the <title cert="high" level="a" type="MiddleweightChampionOfTheWorld" xml:space="default">middleweight crown</title></l>
                <l>Had no idea what kinda shit was about to go down</l>
-               <l><span cert="high" evaluate="all" type="Misjustice" xml:space="default">When a <persName key="police officer" ref="http://www.wikidata.org/entity/Q384593" cert="high" type="real">cop</persName> pulled him over to the side of the road</span></l>
-               <l><span cert="high" evaluate="all" type="Racism" xml:space="default">Just like the time before and the time before that</span></l>
-               <l><span cert="high" evaluate="all" type="Racism" xml:space="default">In <placeName key="Paterson" ref="http://www.wikidata.org/entity/Q138391">Paterson</placeName> that’s just the way things go</span></l>
-               <l><span cert="high" evaluate="all" type="Racism" xml:space="default">If you’re black you might as well not show up on the street</span></l>
-               <l><span cert="high" evaluate="all" type="Racism" xml:space="default">’Less you wanna draw the heat</span></l>
+               <l><span cert="high" evaluate="all" xml:space="default" type="MiscarriageOfJustice">When a <persName key="police officer" ref="http://www.wikidata.org/entity/Q384593" cert="high" type="real">cop</persName> pulled him over to the side of the road</span></l>
+               <l><span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">Just like the time before and the time before that</span></span></l>
+               <l><span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">In <placeName key="Paterson" ref="http://www.wikidata.org/entity/Q138391">Paterson</placeName> that’s just the way things go</span></span></l>
+               <l><span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">If you’re black you might as well not show up on the street</span></span></l>
+               <l><span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">’Less you wanna draw the heat</span></span></l>
             </lg>
             <lg>
                <l><persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Alfred Bello</persName> had a partner and he had a rap for the <orgName key="police" ref="http://www.wikidata.org/entity/Q35535">cops</orgName></l>
