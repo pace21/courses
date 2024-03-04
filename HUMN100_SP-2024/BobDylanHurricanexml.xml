@@ -2422,7 +2422,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?organization_annotation_20240303191758367#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[6]/l[4]/span/orgName"
+			"rdf:value": "TEI/text/body/div[2]/lg[6]/l[4]/span/span/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -3137,7 +3137,7 @@
                <l>Four months later, <placeName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default">the ghettos</placeName> are in flame</l>
                <l> <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName>’s in <placeName key="South America" ref="http://www.wikidata.org/entity/Q18">South America<precision match="@ref" precision="low"/></placeName>, fightin’ for his name</l>
                <l> While <persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Arthur Dexter Bradley</persName>’s still in the robbery game</l>
-               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">And the <orgName key="police" ref="http://www.wikidata.org/entity/Q35535">cops</orgName> are puttin’ the screws to him, lookin’ for somebody to blame</span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="Racism" xml:space="default">And the <orgName key="police" ref="http://www.wikidata.org/entity/Q35535">cops</orgName> are puttin’ the screws to him, lookin’ for somebody to blame</span></span></l>
                <l> “Remember that murder that happened in a <placeName key="bar" ref="http://www.wikidata.org/entity/Q187456">bar<precision match="@ref" precision="medium"/></placeName>?”</l>
                <l> “Remember you said you saw the getaway car?”</l>
                <l> “You think you’d like to play ball with the law?”</l>
