@@ -1082,7 +1082,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?person_annotation_20240303231523527#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[9]/l[8]/span/persName"
+			"rdf:value": "TEI/text/body/div[2]/lg[9]/l[8]/span/span/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2816,7 +2816,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?organization_annotation_20240303192003160#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[9]/l[9]/span/orgName"
+			"rdf:value": "TEI/text/body/div[2]/lg[9]/l[9]/span/span/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -3254,8 +3254,8 @@
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">And to the black folks he was just a crazy nigger</span></l>
                <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">No one doubted that he pulled the trigger</span></l>
                <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">And though they could not produce the gun</span></l>
-               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">The <persName key="district attorney" ref="http://www.wikidata.org/entity/Q653368" cert="high" type="real">D.A.</persName> said he was the one who did the deed</span></l>
-               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">And the all-white <orgName key="jury" ref="http://www.wikidata.org/entity/Q837675">jury</orgName> agreed</span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">The <persName key="district attorney" ref="http://www.wikidata.org/entity/Q653368" cert="high" type="real">D.A.</persName> said he was the one who did the deed</span></span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">And the all-white <orgName key="jury" ref="http://www.wikidata.org/entity/Q837675">jury</orgName> agreed</span></span></l>
             </lg>
             <lg>
                <l><persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" role="dfd">Rubin Carter</persName> was falsely tried</l>
@@ -3264,9 +3264,9 @@
                <l> And the <orgName key="newspaper publisher" ref="http://www.wikidata.org/entity/Q3579160" cert="high">newspapers</orgName>, they all went along for the ride</l>
                <l> How can the life of such a man</l>
                <l> Be in the palm of some fool’s hand?</l>
-               <l> To see him obviously framed</l>
+               <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">To see him obviously framed</span></l>
                <l> Couldn’t help but make me feel ashamed to live in <placeName key="United States of America" ref="http://www.wikidata.org/entity/Q30">a land<precision match="@ref" precision="low"/></placeName></l>
-               <l> Where justice is a game</l>
+               <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">Where justice is a game</span></l>
             </lg>
             <lg>
                <l>Now all the criminals in their coats and their ties</l>
