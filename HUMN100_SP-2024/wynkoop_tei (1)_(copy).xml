@@ -2985,6 +2985,86 @@
 	"cwrc:hasPrecision": "cwrc:lowCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240303225111221",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T03:51:11.221Z",
+	"dcterms:modified": "2024-03-04T03:51:11.221Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pace21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "pace wynkoop"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240303225111221#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240303225111221#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/lg/l[8]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q686534",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
       
    <xenoData/>
@@ -2993,14 +3073,14 @@
          <div>
             <head>"Hurricane" (Bob Dylan)</head></div><div>
             <lg>
-               <l>Pistol shots ring out in the <placeName key="barroom" ref="http://www.wikidata.org/entity/Q115760943" cert="high">barroom</placeName> night</l>
+               <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Shooting" xml:space="default">Pistol shots ring out</eventName> in the <placeName key="barroom" ref="http://www.wikidata.org/entity/Q115760943" cert="high">barroom</placeName> night</l>
                <l>Enter <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" type="real">Patty Valentine</persName> from the <placeName>upper hall</placeName></l>
-               <l>She sees the <persName key="bartender" ref="http://www.wikidata.org/entity/Q808266">bartender</persName> in a pool of blood</l>
-               <l>Cries out, “My God, they killed them all!”</l>
+               <l>She sees the <persName key="bartender" ref="http://www.wikidata.org/entity/Q808266">bartender</persName> <desc cert="high" type="deprecationInfo" xml:space="default">in a pool of blood</desc></l>
+               <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Screaming" xml:space="default">Cries out</eventName>, “My God, they killed them all!”</l>
                <l>Here comes the story of the <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772">Hurricane</persName></l>
                <l>The man the <orgName key="law enforcement" ref="http://www.wikidata.org/entity/Q44554" cert="high">authorities</orgName> came to blame</l>
                <l>For somethin’ that he never done</l>
-               <l>Put in a prison cell, but one time he could-a been</l>
+               <l>Put in a <placeName key="prison cell" ref="http://www.wikidata.org/entity/Q686534" cert="high">prison cell<precision match="@ref" precision="medium"/></placeName>, but one time he could-a been</l>
                <l><title cert="high" level="a" xml:space="default" type="MiddleweightChampionOfTheWorld">The champion of the world</title></l>
             </lg>
             <lg>
@@ -3011,7 +3091,7 @@
                <l>I saw them leavin’,” he says, and he stops</l>
                <l>“One of us had better call up the <orgName key="Police" ref="http://dbpedia.org/resource/Police">cops</orgName>”</l>
                <l>And so <persName>Patty</persName> calls the <orgName key="police" ref="http://www.wikidata.org/entity/Q35535" cert="high">cops</orgName></l>
-               <l>And they arrive on the scene with their red lights flashin’</l>
+               <l>And <eventName cert="high" evidence="internal" full="yes" instant="unknown" type="CopsCome" xml:space="default">they arrive on the scene</eventName> <desc>with their red lights flashin’</desc></l>
                <l>In the hot <placeName key="New Jersey" ref="http://www.wikidata.org/entity/Q1408" cert="high">New Jersey<precision match="@ref" precision="medium"/></placeName> night</l>
             </lg>
             <lg>
