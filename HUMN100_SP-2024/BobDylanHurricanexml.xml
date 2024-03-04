@@ -3106,7 +3106,7 @@
 	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?title_annotation_20240304092440938",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-04T14:24:40.938Z",
-	"dcterms:modified": "2024-03-04T14:24:40.938Z",
+	"dcterms:modified": "2024-03-04T14:37:21.364Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/pace21",
 		"@type": [
@@ -3155,7 +3155,7 @@
    <text>
       <body>
          <div>
-            <head><title key="Hurricane" ref="http://www.wikidata.org/entity/Q1419882" cert="high">"Hurricane" (Bob Dylan)</title></head></div><div>
+            <head><title key="Hurricane" ref="http://www.wikidata.org/entity/Q1419882" cert="high" level="m">"Hurricane" (Bob Dylan)</title></head></div><div>
             <lg>
                <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Shooting" xml:space="default">Pistol shots ring out</eventName> in the <placeName key="barroom" ref="http://www.wikidata.org/entity/Q115760943" cert="high">barroom</placeName> night</l>
                <l>Enter <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" type="real">Patty Valentine</persName> from the <placeName>upper hall</placeName></l>
@@ -3170,8 +3170,8 @@
             <lg>
                <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="murder" xml:space="default">Three bodies lyin’ there</eventName> does <persName cert="high" type="real">Patty</persName> see</l>
                <l>And another man named <persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Bello</persName>, movin’ around mysteriously</l>
-               <l>“I didn’t do it,” he says, and he throws up his hands</l>
-               <l>“I was only robbin’ the register, I hope you understand</l>
+               <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="lie" xml:space="default">“I didn’t do it,” he says, and he throws up his hands</eventName></l>
+               <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="lie" xml:space="default">“I was only robbin’ the register, I hope you understand</eventName></l>
                <l>I saw them leavin’,” he says, and he stops</l>
                <l>“One of us had better call up the <orgName key="Police" ref="http://dbpedia.org/resource/Police">cops</orgName>”</l>
                <l>And so <persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Patty</persName> calls the <orgName key="police" ref="http://www.wikidata.org/entity/Q35535" cert="high">cops</orgName></l>
