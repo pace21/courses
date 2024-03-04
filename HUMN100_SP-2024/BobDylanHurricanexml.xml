@@ -3141,7 +3141,7 @@
             <lg>
                <l><persName cert="high" type="real">Arthur Dexter Bradley</persName> said, “I’m really not sure”</l>
                <l> <orgName key="police" ref="http://www.wikidata.org/entity/Q35535" cert="high">Cops</orgName> said, “A poor boy like you could use a break</l>
-               <l> We got you for the motel job and we’re talkin’ to your friend <persName>Bello</persName></l>
+               <l> We got you for the <eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Robbery" xml:space="default">motel job</eventName> and we’re talkin’ to your friend <persName>Bello</persName></l>
                <l> Now you don’t wanta have to go back to jail, be a nice fellow</l>
                <l> You’ll be doin’ society a favor</l>
                <l> That sonofabitch is brave and gettin’ braver</l>
