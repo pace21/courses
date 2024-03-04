@@ -768,7 +768,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?person_annotation_20240303231403488#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[7]/l[9]/persName"
+			"rdf:value": "TEI/text/body/div[2]/lg[7]/l[9]/span/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -3142,18 +3142,18 @@
                <l> “Remember you said you saw the getaway car?”</l>
                <l> “You think you’d like to play ball with the law?”</l>
                <l> “Think it might-a been that fighter that you saw runnin’ that night?”</l>
-               <l>“Don’t forget that you are white”</l>
+               <l><span cert="high" evaluate="all" type="Racism" xml:space="default">“Don’t forget that you are white”</span></l>
             </lg>
             <lg>
                <l><persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" type="Witness">Arthur Dexter Bradley</persName> said, “I’m really not sure”</l>
                <l> <orgName key="police" ref="http://www.wikidata.org/entity/Q35535" cert="high">Cops</orgName> said, “A poor boy like you could use a break</l>
                <l> We got you for the <eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Robbery" xml:space="default">motel job</eventName> and we’re talkin’ to your friend <persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Bello</persName></l>
                <l> Now you don’t wanta have to go back to jail, be a nice fellow</l>
-               <l> You’ll be doin’ society a favor</l>
-               <l> That sonofabitch is brave and gettin’ braver</l>
-               <l> We want to put his ass in stir</l>
-               <l> We want to pin this triple murder on him</l>
-               <l> He ain’t no <persName key="James J. Corbett" ref="http://www.wikidata.org/entity/Q455494" cert="high" type="real">Gentleman Jim</persName>”</l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">You’ll be doin’ society a favor</span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">That sonofabitch is brave and gettin’ braver</span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">We want to put his ass in stir</span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">We want to pin this triple murder on him</span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">He ain’t no <persName key="James J. Corbett" ref="http://www.wikidata.org/entity/Q455494" cert="high" type="real">Gentleman Jim</persName>”</span></l>
             </lg>
             <lg>
                <l><persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" role="dfd">Rubin</persName> could take a man out with just one punch</l>
