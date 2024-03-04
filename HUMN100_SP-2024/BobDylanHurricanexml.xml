@@ -925,7 +925,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?person_annotation_20240303231417418#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[9]/l/persName"
+			"rdf:value": "TEI/text/body/div[2]/lg[9]/l/span/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -3167,10 +3167,10 @@
                <l> Where they try to turn a man into a mouse</l>
             </lg>
             <lg>
-               <l>All of <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName>’s cards were marked in advance</l>
-               <l> The trial was a pig-circus, he never had a chance</l>
+               <l><span cert="high" evaluate="all" type="Racism" xml:space="default">All of <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName>’s cards were marked in advance</span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">The trial was a pig-circus, he never had a chance</span></l>
                <l> The <persName key="judge" ref="http://www.wikidata.org/entity/Q16533" cert="high" type="real" role="jud">judge</persName> made <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" role="dfd">Rubin’</persName>s witnesses drunkards from the slums</l>
-               <l> To the white folks who watched he was a revolutionary bum</l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">To the white folks who watched he was a revolutionary bum</span></l>
                <l> And to the black folks he was just a crazy nigger</l>
                <l> No one doubted that he pulled the trigger</l>
                <l> And though they could not produce the gun</l>
