@@ -3264,7 +3264,7 @@
                <l> And the <orgName key="newspaper publisher" ref="http://www.wikidata.org/entity/Q3579160" cert="high">newspapers</orgName>, they all went along for the ride</l>
                <l> How can the life of such a man</l>
                <l> Be in the palm of some fool’s hand?</l>
-               <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">To see him obviously framed</span></l>
+               <l> <span cert="high" evaluate="all" xml:space="default" type="MiscarriageOfJustice">To see him obviously framed</span></l>
                <l> Couldn’t help but make me feel ashamed to live in <placeName key="United States of America" ref="http://www.wikidata.org/entity/Q30">a land<precision match="@ref" precision="low"/></placeName></l>
                <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">Where justice is a game</span></l>
             </lg>
