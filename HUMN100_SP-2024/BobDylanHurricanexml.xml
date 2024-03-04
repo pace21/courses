@@ -3172,7 +3172,7 @@
                <l>And another man named <persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Bello</persName>, movin’ around mysteriously</l>
                <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="lie" xml:space="default">“I didn’t do it,” he says, and he throws up his hands</eventName></l>
                <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="lie" xml:space="default">“I was only robbin’ the register, I hope you understand</eventName></l>
-               <l>I saw them leavin’,” he says, and he stops</l>
+               <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="lie" xml:space="default">I saw them leavin’,” he says, and he stops</eventName></l>
                <l>“One of us had better call up the <orgName key="Police" ref="http://dbpedia.org/resource/Police">cops</orgName>”</l>
                <l>And so <persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Patty</persName> calls the <orgName key="police" ref="http://www.wikidata.org/entity/Q35535" cert="high">cops</orgName></l>
                <l>And <eventName cert="high" evidence="internal" full="yes" instant="unknown" type="CopsCome" xml:space="default">they arrive on the scene</eventName> <desc>with their red lights flashin’</desc></l>
@@ -3183,7 +3183,7 @@
                <l><persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin Carter</persName> and a couple of friends are drivin’ around</l>
                <l>Number one contender for the <title cert="high" level="a" type="MiddleweightChampionOfTheWorld" xml:space="default">middleweight crown</title></l>
                <l>Had no idea what kinda shit was about to go down</l>
-               <l><span cert="high" evaluate="all" xml:space="default" type="MiscarriageOfJustice">When a <persName key="police officer" ref="http://www.wikidata.org/entity/Q384593" cert="high" type="real">cop</persName> pulled him over to the side of the road</span></l>
+               <l><span cert="high" evaluate="all" xml:space="default" type="MiscarriageOfJustice">When a <persName key="police officer" ref="http://www.wikidata.org/entity/Q384593" cert="high" type="real">cop</persName> <eventName cert="high" evidence="internal" full="yes" instant="unknown" type="PulledOver" xml:space="default">pulled him over</eventName> to the side of the road</span></l>
                <l><span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">Just like the time before and the time before that</span></span></l>
                <l><span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">In <placeName key="Paterson" ref="http://www.wikidata.org/entity/Q138391">Paterson</placeName> that’s just the way things go</span></span></l>
                <l><span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">If you’re black you might as well not show up on the street</span></span></l>
