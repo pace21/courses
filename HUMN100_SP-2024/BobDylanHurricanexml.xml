@@ -1082,7 +1082,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?person_annotation_20240303231523527#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[9]/l[8]/persName"
+			"rdf:value": "TEI/text/body/div[2]/lg[9]/l[8]/span/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1872,7 +1872,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?person_annotation_20240303191358126#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[3]/l[5]/persName"
+			"rdf:value": "TEI/text/body/div[2]/lg[3]/l[5]/span/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2816,7 +2816,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?organization_annotation_20240303192003160#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/lg[9]/l[9]/orgName"
+			"rdf:value": "TEI/text/body/div[2]/lg[9]/l[9]/span/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -3105,7 +3105,7 @@
                <l><persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin Carter</persName> and a couple of friends are drivin’ around</l>
                <l>Number one contender for the <title cert="high" level="a" type="MiddleweightChampionOfTheWorld" xml:space="default">middleweight crown</title></l>
                <l>Had no idea what kinda shit was about to go down</l>
-               <l>When a <persName key="police officer" ref="http://www.wikidata.org/entity/Q384593" cert="high" type="real">cop</persName> pulled him over to the side of the road</l>
+               <l><span cert="high" evaluate="all" type="Misjustice" xml:space="default">When a <persName key="police officer" ref="http://www.wikidata.org/entity/Q384593" cert="high" type="real">cop</persName> pulled him over to the side of the road</span></l>
                <l><span cert="high" evaluate="all" type="Racism" xml:space="default">Just like the time before and the time before that</span></l>
                <l><span cert="high" evaluate="all" type="Racism" xml:space="default">In <placeName key="Paterson" ref="http://www.wikidata.org/entity/Q138391">Paterson</placeName> that’s just the way things go</span></l>
                <l><span cert="high" evaluate="all" type="Racism" xml:space="default">If you’re black you might as well not show up on the street</span></l>
@@ -3171,11 +3171,11 @@
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">The trial was a pig-circus, he never had a chance</span></l>
                <l> The <persName key="judge" ref="http://www.wikidata.org/entity/Q16533" cert="high" type="real" role="jud">judge</persName> made <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" role="dfd">Rubin’</persName>s witnesses drunkards from the slums</l>
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">To the white folks who watched he was a revolutionary bum</span></l>
-               <l> And to the black folks he was just a crazy nigger</l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">And to the black folks he was just a crazy nigger</span></l>
                <l> No one doubted that he pulled the trigger</l>
                <l> And though they could not produce the gun</l>
-               <l> The <persName key="district attorney" ref="http://www.wikidata.org/entity/Q653368" cert="high" type="real">D.A.</persName> said he was the one who did the deed</l>
-               <l> And the all-white <orgName key="jury" ref="http://www.wikidata.org/entity/Q837675">jury</orgName> agreed</l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">The <persName key="district attorney" ref="http://www.wikidata.org/entity/Q653368" cert="high" type="real">D.A.</persName> said he was the one who did the deed</span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default">And the all-white <orgName key="jury" ref="http://www.wikidata.org/entity/Q837675">jury</orgName> agreed</span></l>
             </lg>
             <lg>
                <l><persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" role="dfd">Rubin Carter</persName> was falsely tried</l>
