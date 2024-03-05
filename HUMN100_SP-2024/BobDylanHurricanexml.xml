@@ -3103,10 +3103,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?title_annotation_20240304092440938",
+	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?title_annotation_20240304093721364",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-04T14:24:40.938Z",
-	"dcterms:modified": "2024-03-04T14:37:21.364Z",
+	"dcterms:created": "2024-03-04T14:37:21.364Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/pace21",
 		"@type": [
@@ -3117,7 +3116,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?title_annotation_20240304092440938#Target",
+		"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?title_annotation_20240304093721364#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml",
@@ -3131,7 +3130,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?title_annotation_20240304092440938#Selector",
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?title_annotation_20240304093721364#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title"
 		}
@@ -3323,7 +3322,7 @@
                <l>The man the <orgName key="law enforcement" ref="http://www.wikidata.org/entity/Q44554" cert="high">authorities</orgName> came to blame</l>
                <l><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">For somethin’ that he never done</span></l>
                <l>Put in a <placeName key="prison cell" ref="http://www.wikidata.org/entity/Q686534" cert="high">prison cell<precision match="@ref" precision="medium"/></placeName>, but one time he could-a been</l>
-               <l><title cert="high" level="a" xml:space="default" type="MiddleweightChampionOfTheWorld">The champion of the world<note type="scholarNote">He was robbed of his future and opportunity for greatness due to racism inherent under the American empire and capitalism</note></title></l>
+               <l><title cert="high" level="a" xml:space="default" type="MiddleweightChampionOfTheWorld">The champion of the world</title></l>
             </lg>
             <lg>
                <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="murder" xml:space="default">Three bodies lyin’ there</eventName> does <persName cert="high" type="real">Patty</persName> see</l>
@@ -3334,7 +3333,7 @@
                <l>“One of us had better call up the <orgName key="Police" ref="http://dbpedia.org/resource/Police">cops</orgName>”</l>
                <l>And so <persName cert="high" evidence="internal" full="yes" instant="unknown" type="Witness" xml:space="default">Patty</persName> calls the <orgName key="police" ref="http://www.wikidata.org/entity/Q35535" cert="high">cops</orgName></l>
                <l>And <eventName cert="high" evidence="internal" full="yes" instant="unknown" type="CopsCome" xml:space="default">they arrive on the scene</eventName> <desc>with their red lights flashin’</desc></l>
-               <l>In the hot <placeName key="New Jersey" ref="http://www.wikidata.org/entity/Q1408" cert="high">New Jersey<precision match="@ref" precision="medium"/></placeName> night<note type="scholarNote">Patricia Graham Valentine calls the cops because of the murder in the bar she was in</note></l>
+               <l>In the hot <placeName key="New Jersey" ref="http://www.wikidata.org/entity/Q1408" cert="high">New Jersey<precision match="@ref" precision="medium"/></placeName> night<note type="scholarNote">Patricia Graham Valentine calls the cops because of the murder at the bar she was in, the cops then arrive at the bar.</note></l>
             </lg>
             <lg>
                <l>Meanwhile, far away in <placeName cert="high">another part of town</placeName></l>
