@@ -3308,6 +3308,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306093051657",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:30:51.657Z",
+	"dcterms:modified": "2024-03-06T14:30:51.657Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pace21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "pace wynkoop"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306093051657#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306093051657#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/lg[11]/l[3]/persName[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "This reference to Buddha is common among Dylan's works as he was infatuated with religion. This is seen in many of Dylan's song such as \"Precious Angel\" which states, \"You were telling him about Buddha, you were telling him about Mohammed in the same breath\" (Dylan). Florida International University's Dr, Steve Heine specifics when Dylan's fascination with Buddhism started stating, \"Dylan’s “Zen garden,” a stage that included explicit references to\nZen or Asian mysticism, was probably initially cultivated in 1974 on Planet\nWaves, which includes liner notes that evoke the image of Native American\npoets seeking a sense of the Buddha as part of their spiritual journey\" (Heine).\n\nhttps://asian.fiu.edu/jsr/heine-dylanzen-article2.pdf\n\nhttps://www.bobdylan.com/songs/precious-angel/"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3428,7 +3507,14 @@ https://apnews.com/article/black-panther-party-huey-newton-race-and-ethnicity-d3
             <lg>
                <l>Now all the criminals in their coats and their ties</l>
                <l> Are free to drink martinis and watch the sun rise</l>
-               <l> While <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName> sits like <persName key="Buddha" ref="http://www.wikidata.org/entity/Q7055" type="both">Buddha</persName> in a ten-foot cell</l>
+               <l> While <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName> sits like <persName key="Buddha" ref="http://www.wikidata.org/entity/Q7055" type="both"><note type="scholarNote">This reference to Buddha is common among Dylan's works as he was infatuated with religion. This is seen in many of Dylan's song such as "Precious Angel" which states, "You were telling him about Buddha, you were telling him about Mohammed in the same breath" (Dylan). Florida International University's Dr, Steve Heine specifics when Dylan's fascination with Buddhism started stating, "Dylan’s “Zen garden,” a stage that included explicit references to
+Zen or Asian mysticism, was probably initially cultivated in 1974 on Planet
+Waves, which includes liner notes that evoke the image of Native American
+poets seeking a sense of the Buddha as part of their spiritual journey" (Heine).
+
+https://asian.fiu.edu/jsr/heine-dylanzen-article2.pdf
+
+https://www.bobdylan.com/songs/precious-angel/</note>Buddha</persName> in a ten-foot cell</l>
                <l> An innocent man in a living hell</l>
                <l> That’s the story of the <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Hurricane</persName></l>
                <l> But it won’t be over till they clear his name</l>
