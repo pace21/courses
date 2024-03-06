@@ -3786,6 +3786,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306182009097",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T23:20:09.097Z",
+	"dcterms:modified": "2024-03-06T23:20:09.097Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pace21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "pace wynkoop"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306182009097#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306182009097#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/lg[5]/l[4]/span/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The lines, \"The wounded man looks up through his one dyin’ eye says, “Wha’d you bring him in here for? He ain’t the guy!”\" show how despite witnesses claiming that Rubin Carter was not the man who committed murder the cops purposefully chose to pin the murder on him."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3843,7 +3922,7 @@ https://ig.ft.com/life-of-a-song/hurricane.html#:~:text=The%20resulting%20song%2
                <l><time cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:space="default" type="4:00AM">Four in the mornin’</time> and they haul <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName> in</l>
                <l> Take him to the <placeName key="hospital" ref="http://www.wikidata.org/entity/Q16917">hospital</placeName> and they bring him upstairs</l>
                <l> The wounded man looks up through his one dyin’ eye</l>
-               <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">Says, “Wha’d you bring him in here for? He ain’t the guy!”</span></l>
+               <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">Says, “Wha’d you bring him in here for? He ain’t the guy!”<note type="scholarNote">The lines, "The wounded man looks up through his one dyin’ eye says, “Wha’d you bring him in here for? He ain’t the guy!”" show how despite witnesses claiming that Rubin Carter was not the man who committed murder the cops purposefully chose to pin the murder on him.</note></span></l>
                <l> Yes, here’s the story of the <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" role="dfd">Hurricane</persName></l>
                <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">The man the <orgName key="law enforcement" ref="http://www.wikidata.org/entity/Q44554" cert="high">authorities</orgName> came to blame</span></l>
                <l> <span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">For somethin’ that he never done</span></l>
