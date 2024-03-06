@@ -3545,6 +3545,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306104759926",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T15:47:59.926Z",
+	"dcterms:modified": "2024-03-06T15:47:59.926Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pace21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "pace wynkoop"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306104759926#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306104759926#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/lg[11]/l[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The lines, \"Now all the criminals in their coats and their ties are free to drink martinis and watch the sun rise\" are a political statement about the corruptness of the United States of America and about how the real criminals are politicians and businessmen. This is a sentiment that is common among Dylan's works as seen in \"Masters of War\", \"The Times They Are A-Changin'\", and \"Talkin’ World War III Blues\" "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3668,7 +3747,7 @@ https://apnews.com/article/black-panther-party-huey-newton-race-and-ethnicity-d3
             </lg>
             <lg>
                <l>Now all the criminals in their coats and their ties</l>
-               <l> Are free to drink martinis and watch the sun rise</l>
+               <l> Are free to drink martinis and watch the sun rise<note type="scholarNote">The lines, "Now all the criminals in their coats and their ties are free to drink martinis and watch the sun rise" are a political statement about the corruptness of the United States of America and about how the real criminals are politicians and businessmen. This is a sentiment that is common among Dylan's works as seen in "Masters of War", "The Times They Are A-Changin'", and "Talkin’ World War III Blues" </note></l>
                <l> While <persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" cert="high" type="real" role="dfd">Rubin</persName> sits like <persName key="Buddha" ref="http://www.wikidata.org/entity/Q7055" type="both"><note type="scholarNote">This reference to Buddha is common among Dylan's works as he was infatuated with religion. This is seen in many of Dylan's song such as "Precious Angel" which states, "You were telling him about Buddha, you were telling him about Mohammed in the same breath" (Dylan). Florida International University's Dr, Steve Heine specifics when Dylan's fascination with Buddhism started stating, "Dylan’s “Zen garden,” a stage that included explicit references to
 Zen or Asian mysticism, was probably initially cultivated in 1974 on Planet
 Waves, which includes liner notes that evoke the image of Native American
