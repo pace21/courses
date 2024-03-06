@@ -742,6 +742,7 @@
 	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?person_annotation_20240303231403488",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-04T04:14:03.488Z",
+	"dcterms:modified": "2024-03-06T23:16:32.335Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/pace21",
 		"@type": [
@@ -772,7 +773,11 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "http://www.wikidata.org/entity/Q455494",
 		"dc:format": "text/plain"
 	},
@@ -3702,6 +3707,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306181624458",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T23:16:24.458Z",
+	"dcterms:modified": "2024-03-06T23:16:24.458Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pace21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "pace wynkoop"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306181624458#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306181624458#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/lg[7]/l[9]/span/span/persName/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "This is a reference to not only a movie about a boxer called Gentleman Jim, but also a real bare-knuckle and gloved boxer, James J. Corbett. Both the fictional character and the real person he was named after were known for being polite, well-mannered, and importantly, within the context of this song and Carter's case, white. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3786,7 +3870,7 @@ https://ig.ft.com/life-of-a-song/hurricane.html#:~:text=The%20resulting%20song%2
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">That sonofabitch is brave and gettin’ braver</span></span></l>
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">We want to put his ass in stir</span></span></l>
                <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">We want to pin this triple murder on him</span></span></l>
-               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">He ain’t no <persName key="James J. Corbett" ref="http://www.wikidata.org/entity/Q455494" cert="high" type="real">Gentleman Jim</persName>”</span></span></l>
+               <l> <span cert="high" evaluate="all" type="Racism" xml:space="default"><span cert="high" evaluate="all" type="MiscarriageOfJustice" xml:space="default">He ain’t no <persName key="James J. Corbett" ref="http://www.wikidata.org/entity/Q455494" cert="high" type="both"><note type="scholarNote">This is a reference to not only a movie about a boxer called Gentleman Jim, but also a real bare-knuckle and gloved boxer, James J. Corbett. Both the fictional character and the real person he was named after were known for being polite, well-mannered, and importantly, within the context of this song and Carter's case, white. </note>Gentleman Jim</persName>”</span></span></l>
             </lg>
             <lg>
                <l><persName key="Rubin Carter" ref="http://www.wikidata.org/entity/Q452772" role="dfd">Rubin</persName> could take a man out with just one punch</l>
