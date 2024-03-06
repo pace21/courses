@@ -3466,13 +3466,94 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306094729395",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:47:29.395Z",
+	"dcterms:modified": "2024-03-06T14:47:29.395Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pace21",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "pace wynkoop"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306094729395#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/pace21/courses/main/HUMN100_SP-2024/BobDylanHurricanexml.xml?note_annotation_20240306094729395#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/title/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Bob Dylan was inspired to write this song after Rubin \"Hurricane\" Carter sent him a copy of his autobiography which chronicled not only his life story, but also his experience with being falsely tried and imprisoned. After reading the book Dylan met with Carter which ultimately lead him to write \"Hurricane\".\n\nhttps://ig.ft.com/life-of-a-song/hurricane.html#:~:text=The%20resulting%20song%20was%20written,I%20could%20tell%20a%20story."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <div>
             <head><title key="Hurricane" ref="http://www.wikidata.org/entity/Q1419882" cert="high" level="m"><note type="scholarNote">Dylan wrote this song with playwright Dr. Jacques Levy, who he had met through a mutual friend. Dr. Levy contributed to the song through his strong ability to narrate a story. In an interview with Jan Dalley of Financial Times Dr. Levy states, "I think [Dylan] liked the idea that I could tell a story. Bob is not that good at telling stories. He’s got a lot of good stuff in his songs, but they don’t usually add up to a story" (Jan Dalley). Many believe that without Dylan's collaboration with Dr. Levy the song would not be as impactful as it is today.
 
-https://ig.ft.com/life-of-a-song/hurricane.html#:~:text=The%20resulting%20song%20was%20written,I%20could%20tell%20a%20story.</note>"Hurricane" (Bob Dylan)</title></head></div><div>
+https://ig.ft.com/life-of-a-song/hurricane.html#:~:text=The%20resulting%20song%20was%20written,I%20could%20tell%20a%20story.</note>"Hurricane" (Bob Dylan)<note type="scholarNote">Bob Dylan was inspired to write this song after Rubin "Hurricane" Carter sent him a copy of his autobiography which chronicled not only his life story, but also his experience with being falsely tried and imprisoned. After reading the book Dylan met with Carter which ultimately lead him to write "Hurricane".
+
+https://ig.ft.com/life-of-a-song/hurricane.html#:~:text=The%20resulting%20song%20was%20written,I%20could%20tell%20a%20story.</note></title></head></div><div>
             <lg>
                <l><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Shooting" xml:space="default">Pistol shots ring out</eventName> in the <placeName key="barroom" ref="http://www.wikidata.org/entity/Q115760943" cert="high">barroom</placeName> night</l>
                <l>Enter <persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" type="real">Patty Valentine</persName> from the <placeName>upper hall</placeName></l>
